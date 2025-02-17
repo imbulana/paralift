@@ -1,0 +1,1 @@
+Lifting (nice) objects from 2D to parametric 3D surfaces given depth info.
