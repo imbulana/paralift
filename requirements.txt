@@ -1,2 +1,4 @@
 pyvista
 scikit-image
+
+-r ./requirements-export.txt

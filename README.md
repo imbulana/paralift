@@ -15,14 +15,18 @@ Clone this repo and install requirements
 
 ```bash
 git clone https://github.com/imbulana/paralift.git
+
 cd paralift
 python3 -m pip install -r requirements.txt
 ```
 
-For html scene exports (optional)
+<!-- Install sam2
 
 ```bash
-conda install -c conda-forge trame trame-vtk
+git clone https://github.com/facebookresearch/sam2.git && cd sam2
+pip install -e .
 ```
+
+Download a checkpoint from [here](https://github.com/facebookresearch/sam2?tab=readme-ov-file#download-checkpoints) and place it in the specified directory. -->
 
 ## Usage
