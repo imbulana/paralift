@@ -7,12 +7,22 @@ import pyvista as pv
 
 # transform to center
 
-# find minimal peak path to center (origin)
+# find minimal peak path to center (origin) OR alternatively slice across the center
+
+# slice across center and extrude
+
+def slice_across_axis(shell, axis=[0, 1, 0]):
+    spline = shell.slice(normal=axis)
+    # recreate surface from spline
+    # extruded = spline.extrude_rotate(resolution=100)
+    return spline
 
 # reflect path around origin
 
 # fit sinusoidal to path (solve sys of eqns.) for symmetric surfaces
 # or Taylor approx./interpolation for complex surfaces
+def to_parametric():
+    pass
 
 def lift():
     pass
